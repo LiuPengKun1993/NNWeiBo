@@ -1,0 +1,22 @@
+[
+ {
+    "vcName": “NNHomeTableViewController",
+    "title": "首页",
+    "imageName": "tabbar_home"
+ },
+ {
+     "vcName": “NNMessageTableViewController",
+     "title": "消息",
+     "imageName": "tabbar_message_center"
+ },
+ {
+     "vcName": “NNDiscoverTableViewController",
+     "title": "广场",
+     "imageName": "tabbar_discover"
+ },
+ {
+     "vcName": “NNProfileTableViewController",
+     "title": "我",
+     "imageName": "tabbar_profile"
+ }
+ ]

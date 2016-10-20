@@ -1,0 +1,6 @@
+framework module Pods_NNWeiBo_0_0_0 {
+  umbrella header "Pods-NNWeiBo-0.0.0-umbrella.h"
+
+  export *
+  module * { export * }
+}

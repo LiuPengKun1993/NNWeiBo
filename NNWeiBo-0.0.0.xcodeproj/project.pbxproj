@@ -1,0 +1,1003 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		813A4DF21DB0E529002F8446 /* NNStatusBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813A4DF11DB0E529002F8446 /* NNStatusBottomView.swift */; };
+		813A4DF41DB0E53D002F8446 /* NNStatusTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813A4DF31DB0E53D002F8446 /* NNStatusTopView.swift */; };
+		813A4DF81DB0E977002F8446 /* NNStatusPictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813A4DF71DB0E977002F8446 /* NNStatusPictureView.swift */; };
+		8141ED0E1DADE25B00725ACA /* NNQRCodeCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8141ED0D1DADE25B00725ACA /* NNQRCodeCardViewController.swift */; };
+		8141ED611DAE152F00725ACA /* NNOAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8141ED601DAE152F00725ACA /* NNOAuthViewController.swift */; };
+		8141ED631DAE2B1E00725ACA /* NNNetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8141ED621DAE2B1E00725ACA /* NNNetworkTools.swift */; };
+		8141ED651DAE34D900725ACA /* NNUserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8141ED641DAE34D900725ACA /* NNUserAccount.swift */; };
+		8141ED671DAE461C00725ACA /* String+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8141ED661DAE461C00725ACA /* String+Category.swift */; };
+		8141EE2D1DAF6E7600725ACA /* NNNewfeatureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8141EE2C1DAF6E7600725ACA /* NNNewfeatureController.swift */; };
+		8141EE2F1DAF949200725ACA /* NNWelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8141EE2E1DAF949200725ACA /* NNWelcomeController.swift */; };
+		8141EE311DAFB30E00725ACA /* NNStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8141EE301DAFB30E00725ACA /* NNStatus.swift */; };
+		8141EE331DAFC16100725ACA /* NNUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8141EE321DAFC16100725ACA /* NNUser.swift */; };
+		8141EE351DB05ACE00725ACA /* NNHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8141EE341DB05ACE00725ACA /* NNHomeTableViewCell.swift */; };
+		8141EE371DB05BB500725ACA /* NNLabel+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8141EE361DB05BB500725ACA /* NNLabel+Category.swift */; };
+		8141EE391DB05C9200725ACA /* NNButton+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8141EE381DB05C9200725ACA /* NNButton+Category.swift */; };
+		8141EE3B1DB086FA00725ACA /* NNDate+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8141EE3A1DB086FA00725ACA /* NNDate+Category.swift */; };
+		815CDDBD1DB2435F00B40216 /* NNStatusNormalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CDDBC1DB2435F00B40216 /* NNStatusNormalTableViewCell.swift */; };
+		815CDDBF1DB243A700B40216 /* NNHomeRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CDDBE1DB243A700B40216 /* NNHomeRefreshControl.swift */; };
+		815CDDC11DB243DC00B40216 /* NNHomeRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 815CDDC01DB243DC00B40216 /* NNHomeRefreshView.xib */; };
+		815CDDC31DB2442900B40216 /* NNStatusForwardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CDDC21DB2442900B40216 /* NNStatusForwardTableViewCell.swift */; };
+		81A3678D1DB339EE00F216F1 /* NNPhotoBrowserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A3678C1DB339EE00F216F1 /* NNPhotoBrowserController.swift */; };
+		81A3678F1DB33A0D00F216F1 /* NNPhotoBrowserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A3678E1DB33A0D00F216F1 /* NNPhotoBrowserCell.swift */; };
+		81A367911DB3457F00F216F1 /* NNColor+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A367901DB3457F00F216F1 /* NNColor+Category.swift */; };
+		81A3692C1DB516B800F216F1 /* NNComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A3692B1DB516B800F216F1 /* NNComposeViewController.swift */; };
+		81A3698E1DB5CA0600F216F1 /* EmojiPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A369891DB5CA0600F216F1 /* EmojiPackage.swift */; };
+		81A3698F1DB5CA0600F216F1 /* EmojiTextAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A3698A1DB5CA0600F216F1 /* EmojiTextAttachment.swift */; };
+		81A369901DB5CA0600F216F1 /* EmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A3698B1DB5CA0600F216F1 /* EmojiViewController.swift */; };
+		81A369911DB5CA0600F216F1 /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 81A3698C1DB5CA0600F216F1 /* Emoticons.bundle */; };
+		81A369921DB5CA0600F216F1 /* UITextView+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A3698D1DB5CA0600F216F1 /* UITextView+Category.swift */; };
+		81A36A1E1DB62FA000F216F1 /* compose_photo_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81A36A171DB62FA000F216F1 /* compose_photo_close@2x.png */; };
+		81A36A1F1DB62FA000F216F1 /* compose_pic_add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81A36A181DB62FA000F216F1 /* compose_pic_add@2x.png */; };
+		81A36A201DB62FA000F216F1 /* compose_pic_add@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81A36A191DB62FA000F216F1 /* compose_pic_add@3x.png */; };
+		81A36A211DB62FA000F216F1 /* compose_pic_add_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81A36A1A1DB62FA000F216F1 /* compose_pic_add_highlighted@2x.png */; };
+		81A36A221DB62FA000F216F1 /* compose_pic_add_highlighted@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81A36A1B1DB62FA000F216F1 /* compose_pic_add_highlighted@3x.png */; };
+		81A36A231DB62FA000F216F1 /* ImageSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A36A1C1DB62FA000F216F1 /* ImageSelectorController.swift */; };
+		81A36A241DB62FA000F216F1 /* UIImage+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A36A1D1DB62FA000F216F1 /* UIImage+Category.swift */; };
+		81A36EAA1DB7AFD200F216F1 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A36E9D1DB7AFD200F216F1 /* FMDatabase.m */; };
+		81A36EAB1DB7AFD200F216F1 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A36E9F1DB7AFD200F216F1 /* FMDatabaseAdditions.m */; };
+		81A36EAC1DB7AFD200F216F1 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A36EA11DB7AFD200F216F1 /* FMDatabasePool.m */; };
+		81A36EAD1DB7AFD200F216F1 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A36EA31DB7AFD200F216F1 /* FMDatabaseQueue.m */; };
+		81A36EAE1DB7AFD200F216F1 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A36EA61DB7AFD200F216F1 /* FMResultSet.m */; };
+		81A36EAF1DB7AFD200F216F1 /* FMDatabaseAdditionsVariadic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A36EA81DB7AFD200F216F1 /* FMDatabaseAdditionsVariadic.swift */; };
+		81A36EB01DB7AFD200F216F1 /* FMDatabaseVariadic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A36EA91DB7AFD200F216F1 /* FMDatabaseVariadic.swift */; };
+		81A36EB21DB7B8BA00F216F1 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A36EB11DB7B8BA00F216F1 /* libsqlite3.tbd */; };
+		81A36EB41DB844E300F216F1 /* NNSQLiteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A36EB31DB844E300F216F1 /* NNSQLiteManager.swift */; };
+		81A36EB61DB845EB00F216F1 /* NNStatusDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A36EB51DB845EB00F216F1 /* NNStatusDAO.swift */; };
+		81A825C71DABB1C900574FD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A825C61DABB1C900574FD1 /* AppDelegate.swift */; };
+		81A825CE1DABB1C900574FD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A825CD1DABB1C900574FD1 /* Assets.xcassets */; };
+		81A825DC1DABB1C900574FD1 /* NNWeiBo_0_0_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A825DB1DABB1C900574FD1 /* NNWeiBo_0_0_0Tests.swift */; };
+		81A825E71DABB1C900574FD1 /* NNWeiBo_0_0_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A825E61DABB1C900574FD1 /* NNWeiBo_0_0_0UITests.swift */; };
+		81A825FD1DABB63900574FD1 /* NNTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A825FC1DABB63900574FD1 /* NNTabBarController.swift */; };
+		81A825FF1DABB67600574FD1 /* NNDiscoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A825FE1DABB67600574FD1 /* NNDiscoverTableViewController.swift */; };
+		81A826011DABB68800574FD1 /* NNHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A826001DABB68800574FD1 /* NNHomeTableViewController.swift */; };
+		81A826031DABB69A00574FD1 /* NNMessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A826021DABB69A00574FD1 /* NNMessageTableViewController.swift */; };
+		81A826051DABB6A400574FD1 /* NNProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A826041DABB6A400574FD1 /* NNProfileTableViewController.swift */; };
+		81A8260C1DABD0CB00574FD1 /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = 81A8260B1DABD0CB00574FD1 /* MainVCSettings.json */; };
+		81A826101DABD9F300574FD1 /* NNAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A8260F1DABD9F300574FD1 /* NNAddViewController.swift */; };
+		81A826121DAC6DD500574FD1 /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A826111DAC6DD500574FD1 /* UIView+AutoLayout.swift */; };
+		81A826141DAC6ED500574FD1 /* NNBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A826131DAC6ED500574FD1 /* NNBaseTableViewController.swift */; };
+		81A826161DAC700600574FD1 /* NNVisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A826151DAC700600574FD1 /* NNVisitorView.swift */; };
+		81A826181DAC9E4B00574FD1 /* UIBarButtonItem+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A826171DAC9E4B00574FD1 /* UIBarButtonItem+Category.swift */; };
+		81A8261A1DACA96500574FD1 /* NNTitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A826191DACA96500574FD1 /* NNTitleButton.swift */; };
+		81A826381DAD231200574FD1 /* NNPopoverAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A826331DAD231200574FD1 /* NNPopoverAnimator.swift */; };
+		81A826391DAD231200574FD1 /* NNPopoverViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A826341DAD231200574FD1 /* NNPopoverViewController.storyboard */; };
+		81A8263A1DAD231200574FD1 /* NNPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A826351DAD231200574FD1 /* NNPopoverViewController.swift */; };
+		81A8263B1DAD231200574FD1 /* NNPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A826361DAD231200574FD1 /* NNPresentationController.swift */; };
+		81A8263E1DAD234700574FD1 /* NNQRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A8263C1DAD234700574FD1 /* NNQRCodeViewController.swift */; };
+		81A826411DAD24F100574FD1 /* NNQRCodeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A826401DAD24F100574FD1 /* NNQRCodeViewController.storyboard */; };
+		C55039F5C91325FA0D771DE8 /* Pods_NNWeiBo_0_0_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B7548C14A58FD1435531178 /* Pods_NNWeiBo_0_0_0.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81A825D81DABB1C900574FD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81A825BB1DABB1C900574FD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81A825C21DABB1C900574FD1;
+			remoteInfo = "NNWeiBo-0.0.0";
+		};
+		81A825E31DABB1C900574FD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81A825BB1DABB1C900574FD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81A825C21DABB1C900574FD1;
+			remoteInfo = "NNWeiBo-0.0.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8141ED5E1DADFC0900725ACA /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1B7548C14A58FD1435531178 /* Pods_NNWeiBo_0_0_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NNWeiBo_0_0_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		813A4DF11DB0E529002F8446 /* NNStatusBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNStatusBottomView.swift; sourceTree = "<group>"; };
+		813A4DF31DB0E53D002F8446 /* NNStatusTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNStatusTopView.swift; sourceTree = "<group>"; };
+		813A4DF71DB0E977002F8446 /* NNStatusPictureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNStatusPictureView.swift; sourceTree = "<group>"; };
+		8141ED0D1DADE25B00725ACA /* NNQRCodeCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNQRCodeCardViewController.swift; sourceTree = "<group>"; };
+		8141ED231DADEC6D00725ACA /* NNWeiBo-bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NNWeiBo-bridge.h"; sourceTree = "<group>"; };
+		8141ED601DAE152F00725ACA /* NNOAuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNOAuthViewController.swift; sourceTree = "<group>"; };
+		8141ED621DAE2B1E00725ACA /* NNNetworkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNNetworkTools.swift; sourceTree = "<group>"; };
+		8141ED641DAE34D900725ACA /* NNUserAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNUserAccount.swift; sourceTree = "<group>"; };
+		8141ED661DAE461C00725ACA /* String+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Category.swift"; sourceTree = "<group>"; };
+		8141EE2C1DAF6E7600725ACA /* NNNewfeatureController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNNewfeatureController.swift; sourceTree = "<group>"; };
+		8141EE2E1DAF949200725ACA /* NNWelcomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNWelcomeController.swift; sourceTree = "<group>"; };
+		8141EE301DAFB30E00725ACA /* NNStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNStatus.swift; sourceTree = "<group>"; };
+		8141EE321DAFC16100725ACA /* NNUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNUser.swift; sourceTree = "<group>"; };
+		8141EE341DB05ACE00725ACA /* NNHomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNHomeTableViewCell.swift; sourceTree = "<group>"; };
+		8141EE361DB05BB500725ACA /* NNLabel+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NNLabel+Category.swift"; sourceTree = "<group>"; };
+		8141EE381DB05C9200725ACA /* NNButton+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NNButton+Category.swift"; sourceTree = "<group>"; };
+		8141EE3A1DB086FA00725ACA /* NNDate+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NNDate+Category.swift"; sourceTree = "<group>"; };
+		815CDDBC1DB2435F00B40216 /* NNStatusNormalTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNStatusNormalTableViewCell.swift; sourceTree = "<group>"; };
+		815CDDBE1DB243A700B40216 /* NNHomeRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNHomeRefreshControl.swift; sourceTree = "<group>"; };
+		815CDDC01DB243DC00B40216 /* NNHomeRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NNHomeRefreshView.xib; sourceTree = "<group>"; };
+		815CDDC21DB2442900B40216 /* NNStatusForwardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNStatusForwardTableViewCell.swift; sourceTree = "<group>"; };
+		81A3678C1DB339EE00F216F1 /* NNPhotoBrowserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNPhotoBrowserController.swift; sourceTree = "<group>"; };
+		81A3678E1DB33A0D00F216F1 /* NNPhotoBrowserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNPhotoBrowserCell.swift; sourceTree = "<group>"; };
+		81A367901DB3457F00F216F1 /* NNColor+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NNColor+Category.swift"; sourceTree = "<group>"; };
+		81A3692B1DB516B800F216F1 /* NNComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNComposeViewController.swift; sourceTree = "<group>"; };
+		81A369891DB5CA0600F216F1 /* EmojiPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiPackage.swift; sourceTree = "<group>"; };
+		81A3698A1DB5CA0600F216F1 /* EmojiTextAttachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiTextAttachment.swift; sourceTree = "<group>"; };
+		81A3698B1DB5CA0600F216F1 /* EmojiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiViewController.swift; sourceTree = "<group>"; };
+		81A3698C1DB5CA0600F216F1 /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
+		81A3698D1DB5CA0600F216F1 /* UITextView+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Category.swift"; sourceTree = "<group>"; };
+		81A36A171DB62FA000F216F1 /* compose_photo_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_photo_close@2x.png"; sourceTree = "<group>"; };
+		81A36A181DB62FA000F216F1 /* compose_pic_add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_pic_add@2x.png"; sourceTree = "<group>"; };
+		81A36A191DB62FA000F216F1 /* compose_pic_add@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_pic_add@3x.png"; sourceTree = "<group>"; };
+		81A36A1A1DB62FA000F216F1 /* compose_pic_add_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_pic_add_highlighted@2x.png"; sourceTree = "<group>"; };
+		81A36A1B1DB62FA000F216F1 /* compose_pic_add_highlighted@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_pic_add_highlighted@3x.png"; sourceTree = "<group>"; };
+		81A36A1C1DB62FA000F216F1 /* ImageSelectorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSelectorController.swift; sourceTree = "<group>"; };
+		81A36A1D1DB62FA000F216F1 /* UIImage+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Category.swift"; sourceTree = "<group>"; };
+		81A36E9C1DB7AFD200F216F1 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		81A36E9D1DB7AFD200F216F1 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		81A36E9E1DB7AFD200F216F1 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		81A36E9F1DB7AFD200F216F1 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		81A36EA01DB7AFD200F216F1 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		81A36EA11DB7AFD200F216F1 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		81A36EA21DB7AFD200F216F1 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		81A36EA31DB7AFD200F216F1 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		81A36EA41DB7AFD200F216F1 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		81A36EA51DB7AFD200F216F1 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		81A36EA61DB7AFD200F216F1 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		81A36EA81DB7AFD200F216F1 /* FMDatabaseAdditionsVariadic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMDatabaseAdditionsVariadic.swift; sourceTree = "<group>"; };
+		81A36EA91DB7AFD200F216F1 /* FMDatabaseVariadic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMDatabaseVariadic.swift; sourceTree = "<group>"; };
+		81A36EB11DB7B8BA00F216F1 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		81A36EB31DB844E300F216F1 /* NNSQLiteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNSQLiteManager.swift; sourceTree = "<group>"; };
+		81A36EB51DB845EB00F216F1 /* NNStatusDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNStatusDAO.swift; sourceTree = "<group>"; };
+		81A825C31DABB1C900574FD1 /* NNWeiBo-0.0.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NNWeiBo-0.0.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81A825C61DABB1C900574FD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81A825CD1DABB1C900574FD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81A825D21DABB1C900574FD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81A825D71DABB1C900574FD1 /* NNWeiBo-0.0.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NNWeiBo-0.0.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81A825DB1DABB1C900574FD1 /* NNWeiBo_0_0_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNWeiBo_0_0_0Tests.swift; sourceTree = "<group>"; };
+		81A825DD1DABB1C900574FD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81A825E21DABB1C900574FD1 /* NNWeiBo-0.0.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NNWeiBo-0.0.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81A825E61DABB1C900574FD1 /* NNWeiBo_0_0_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNWeiBo_0_0_0UITests.swift; sourceTree = "<group>"; };
+		81A825E81DABB1C900574FD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81A825FC1DABB63900574FD1 /* NNTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNTabBarController.swift; sourceTree = "<group>"; };
+		81A825FE1DABB67600574FD1 /* NNDiscoverTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNDiscoverTableViewController.swift; sourceTree = "<group>"; };
+		81A826001DABB68800574FD1 /* NNHomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNHomeTableViewController.swift; sourceTree = "<group>"; };
+		81A826021DABB69A00574FD1 /* NNMessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNMessageTableViewController.swift; sourceTree = "<group>"; };
+		81A826041DABB6A400574FD1 /* NNProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNProfileTableViewController.swift; sourceTree = "<group>"; };
+		81A8260B1DABD0CB00574FD1 /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
+		81A8260F1DABD9F300574FD1 /* NNAddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNAddViewController.swift; sourceTree = "<group>"; };
+		81A826111DAC6DD500574FD1 /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
+		81A826131DAC6ED500574FD1 /* NNBaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNBaseTableViewController.swift; sourceTree = "<group>"; };
+		81A826151DAC700600574FD1 /* NNVisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNVisitorView.swift; sourceTree = "<group>"; };
+		81A826171DAC9E4B00574FD1 /* UIBarButtonItem+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Category.swift"; sourceTree = "<group>"; };
+		81A826191DACA96500574FD1 /* NNTitleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNTitleButton.swift; sourceTree = "<group>"; };
+		81A826331DAD231200574FD1 /* NNPopoverAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNPopoverAnimator.swift; sourceTree = "<group>"; };
+		81A826341DAD231200574FD1 /* NNPopoverViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NNPopoverViewController.storyboard; sourceTree = "<group>"; };
+		81A826351DAD231200574FD1 /* NNPopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNPopoverViewController.swift; sourceTree = "<group>"; };
+		81A826361DAD231200574FD1 /* NNPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNPresentationController.swift; sourceTree = "<group>"; };
+		81A8263C1DAD234700574FD1 /* NNQRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNQRCodeViewController.swift; sourceTree = "<group>"; };
+		81A826401DAD24F100574FD1 /* NNQRCodeViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NNQRCodeViewController.storyboard; sourceTree = "<group>"; };
+		9B10561328D2956729F4EAD0 /* Pods-NNWeiBo-0.0.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNWeiBo-0.0.0.release.xcconfig"; path = "Pods/Target Support Files/Pods-NNWeiBo-0.0.0/Pods-NNWeiBo-0.0.0.release.xcconfig"; sourceTree = "<group>"; };
+		E7F2ECB94F4CF62E9D72CCF8 /* Pods-NNWeiBo-0.0.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNWeiBo-0.0.0.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NNWeiBo-0.0.0/Pods-NNWeiBo-0.0.0.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81A825C01DABB1C900574FD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81A36EB21DB7B8BA00F216F1 /* libsqlite3.tbd in Frameworks */,
+				C55039F5C91325FA0D771DE8 /* Pods_NNWeiBo_0_0_0.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81A825D41DABB1C900574FD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81A825DF1DABB1C900574FD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		237F6424C057165E885BDFEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7F2ECB94F4CF62E9D72CCF8 /* Pods-NNWeiBo-0.0.0.debug.xcconfig */,
+				9B10561328D2956729F4EAD0 /* Pods-NNWeiBo-0.0.0.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8141ED5F1DAE151C00725ACA /* OAuth */ = {
+			isa = PBXGroup;
+			children = (
+				8141ED601DAE152F00725ACA /* NNOAuthViewController.swift */,
+				8141ED641DAE34D900725ACA /* NNUserAccount.swift */,
+			);
+			path = OAuth;
+			sourceTree = "<group>";
+		};
+		8141EE281DAF6E1600725ACA /* Newfeature */ = {
+			isa = PBXGroup;
+			children = (
+				8141EE2C1DAF6E7600725ACA /* NNNewfeatureController.swift */,
+				8141EE2E1DAF949200725ACA /* NNWelcomeController.swift */,
+			);
+			path = Newfeature;
+			sourceTree = "<group>";
+		};
+		81A3678B1DB339D000F216F1 /* PhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				81A3678C1DB339EE00F216F1 /* NNPhotoBrowserController.swift */,
+				81A3678E1DB33A0D00F216F1 /* NNPhotoBrowserCell.swift */,
+			);
+			path = PhotoBrowser;
+			sourceTree = "<group>";
+		};
+		81A3692A1DB5169600F216F1 /* Compose */ = {
+			isa = PBXGroup;
+			children = (
+				81A36A151DB62FA000F216F1 /* ImageSelector */,
+				81A369881DB5CA0600F216F1 /* emoji */,
+				81A3692B1DB516B800F216F1 /* NNComposeViewController.swift */,
+			);
+			path = Compose;
+			sourceTree = "<group>";
+		};
+		81A369881DB5CA0600F216F1 /* emoji */ = {
+			isa = PBXGroup;
+			children = (
+				81A369891DB5CA0600F216F1 /* EmojiPackage.swift */,
+				81A3698A1DB5CA0600F216F1 /* EmojiTextAttachment.swift */,
+				81A3698B1DB5CA0600F216F1 /* EmojiViewController.swift */,
+				81A3698C1DB5CA0600F216F1 /* Emoticons.bundle */,
+				81A3698D1DB5CA0600F216F1 /* UITextView+Category.swift */,
+			);
+			path = emoji;
+			sourceTree = "<group>";
+		};
+		81A36A151DB62FA000F216F1 /* ImageSelector */ = {
+			isa = PBXGroup;
+			children = (
+				81A36A161DB62FA000F216F1 /* images */,
+				81A36A1C1DB62FA000F216F1 /* ImageSelectorController.swift */,
+				81A36A1D1DB62FA000F216F1 /* UIImage+Category.swift */,
+			);
+			path = ImageSelector;
+			sourceTree = "<group>";
+		};
+		81A36A161DB62FA000F216F1 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				81A36A171DB62FA000F216F1 /* compose_photo_close@2x.png */,
+				81A36A181DB62FA000F216F1 /* compose_pic_add@2x.png */,
+				81A36A191DB62FA000F216F1 /* compose_pic_add@3x.png */,
+				81A36A1A1DB62FA000F216F1 /* compose_pic_add_highlighted@2x.png */,
+				81A36A1B1DB62FA000F216F1 /* compose_pic_add_highlighted@3x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		81A36E9B1DB7AFD200F216F1 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				81A36E9C1DB7AFD200F216F1 /* FMDatabase.h */,
+				81A36E9D1DB7AFD200F216F1 /* FMDatabase.m */,
+				81A36E9E1DB7AFD200F216F1 /* FMDatabaseAdditions.h */,
+				81A36E9F1DB7AFD200F216F1 /* FMDatabaseAdditions.m */,
+				81A36EA01DB7AFD200F216F1 /* FMDatabasePool.h */,
+				81A36EA11DB7AFD200F216F1 /* FMDatabasePool.m */,
+				81A36EA21DB7AFD200F216F1 /* FMDatabaseQueue.h */,
+				81A36EA31DB7AFD200F216F1 /* FMDatabaseQueue.m */,
+				81A36EA41DB7AFD200F216F1 /* FMDB.h */,
+				81A36EA51DB7AFD200F216F1 /* FMResultSet.h */,
+				81A36EA61DB7AFD200F216F1 /* FMResultSet.m */,
+				81A36EA71DB7AFD200F216F1 /* Swift extensions */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		81A36EA71DB7AFD200F216F1 /* Swift extensions */ = {
+			isa = PBXGroup;
+			children = (
+				81A36EA81DB7AFD200F216F1 /* FMDatabaseAdditionsVariadic.swift */,
+				81A36EA91DB7AFD200F216F1 /* FMDatabaseVariadic.swift */,
+			);
+			path = "Swift extensions";
+			sourceTree = "<group>";
+		};
+		81A825BA1DABB1C900574FD1 = {
+			isa = PBXGroup;
+			children = (
+				81A825C51DABB1C900574FD1 /* NNWeiBo-0.0.0 */,
+				81A825DA1DABB1C900574FD1 /* NNWeiBo-0.0.0Tests */,
+				81A825E51DABB1C900574FD1 /* NNWeiBo-0.0.0UITests */,
+				81A825C41DABB1C900574FD1 /* Products */,
+				237F6424C057165E885BDFEC /* Pods */,
+				86B15E2BC6EC127CC705EA61 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		81A825C41DABB1C900574FD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81A825C31DABB1C900574FD1 /* NNWeiBo-0.0.0.app */,
+				81A825D71DABB1C900574FD1 /* NNWeiBo-0.0.0Tests.xctest */,
+				81A825E21DABB1C900574FD1 /* NNWeiBo-0.0.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81A825C51DABB1C900574FD1 /* NNWeiBo-0.0.0 */ = {
+			isa = PBXGroup;
+			children = (
+				81A825C61DABB1C900574FD1 /* AppDelegate.swift */,
+				81A825F41DABB5E500574FD1 /* Classes */,
+				81A825CD1DABB1C900574FD1 /* Assets.xcassets */,
+				81A825D21DABB1C900574FD1 /* Info.plist */,
+				8141ED231DADEC6D00725ACA /* NNWeiBo-bridge.h */,
+			);
+			path = "NNWeiBo-0.0.0";
+			sourceTree = "<group>";
+		};
+		81A825DA1DABB1C900574FD1 /* NNWeiBo-0.0.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				81A825DB1DABB1C900574FD1 /* NNWeiBo_0_0_0Tests.swift */,
+				81A825DD1DABB1C900574FD1 /* Info.plist */,
+			);
+			path = "NNWeiBo-0.0.0Tests";
+			sourceTree = "<group>";
+		};
+		81A825E51DABB1C900574FD1 /* NNWeiBo-0.0.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				81A825E61DABB1C900574FD1 /* NNWeiBo_0_0_0UITests.swift */,
+				81A825E81DABB1C900574FD1 /* Info.plist */,
+			);
+			path = "NNWeiBo-0.0.0UITests";
+			sourceTree = "<group>";
+		};
+		81A825F41DABB5E500574FD1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				81A3692A1DB5169600F216F1 /* Compose */,
+				8141EE281DAF6E1600725ACA /* Newfeature */,
+				8141ED5F1DAE151C00725ACA /* OAuth */,
+				81A825F51DABB5E500574FD1 /* Category */,
+				81A825F61DABB5E500574FD1 /* Discover */,
+				81A825F71DABB5E500574FD1 /* Home */,
+				81A825F81DABB5E500574FD1 /* Main */,
+				81A825F91DABB5E500574FD1 /* Message */,
+				81A825FA1DABB5E500574FD1 /* Profile */,
+				81A825FB1DABB5E500574FD1 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		81A825F51DABB5E500574FD1 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				81A826171DAC9E4B00574FD1 /* UIBarButtonItem+Category.swift */,
+				81A826191DACA96500574FD1 /* NNTitleButton.swift */,
+				8141EE361DB05BB500725ACA /* NNLabel+Category.swift */,
+				8141EE381DB05C9200725ACA /* NNButton+Category.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		81A825F61DABB5E500574FD1 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				81A825FE1DABB67600574FD1 /* NNDiscoverTableViewController.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		81A825F71DABB5E500574FD1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				81A3678B1DB339D000F216F1 /* PhotoBrowser */,
+				81A826321DAD231200574FD1 /* popover */,
+				81A826371DAD231200574FD1 /* QRCode */,
+				81A826001DABB68800574FD1 /* NNHomeTableViewController.swift */,
+				8141EE341DB05ACE00725ACA /* NNHomeTableViewCell.swift */,
+				815CDDBE1DB243A700B40216 /* NNHomeRefreshControl.swift */,
+				815CDDC01DB243DC00B40216 /* NNHomeRefreshView.xib */,
+				815CDDBC1DB2435F00B40216 /* NNStatusNormalTableViewCell.swift */,
+				815CDDC21DB2442900B40216 /* NNStatusForwardTableViewCell.swift */,
+				813A4DF11DB0E529002F8446 /* NNStatusBottomView.swift */,
+				813A4DF31DB0E53D002F8446 /* NNStatusTopView.swift */,
+				813A4DF71DB0E977002F8446 /* NNStatusPictureView.swift */,
+				8141EE301DAFB30E00725ACA /* NNStatus.swift */,
+				81A36EB51DB845EB00F216F1 /* NNStatusDAO.swift */,
+				8141EE321DAFC16100725ACA /* NNUser.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		81A825F81DABB5E500574FD1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				81A826061DABC21300574FD1 /* Resource */,
+				81A825FC1DABB63900574FD1 /* NNTabBarController.swift */,
+				81A826131DAC6ED500574FD1 /* NNBaseTableViewController.swift */,
+				81A826151DAC700600574FD1 /* NNVisitorView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		81A825F91DABB5E500574FD1 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				81A826021DABB69A00574FD1 /* NNMessageTableViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		81A825FA1DABB5E500574FD1 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				81A826041DABB6A400574FD1 /* NNProfileTableViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		81A825FB1DABB5E500574FD1 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				81A826111DAC6DD500574FD1 /* UIView+AutoLayout.swift */,
+				8141ED621DAE2B1E00725ACA /* NNNetworkTools.swift */,
+				8141ED661DAE461C00725ACA /* String+Category.swift */,
+				8141EE3A1DB086FA00725ACA /* NNDate+Category.swift */,
+				81A367901DB3457F00F216F1 /* NNColor+Category.swift */,
+				81A36EB31DB844E300F216F1 /* NNSQLiteManager.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		81A826061DABC21300574FD1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				81A8260B1DABD0CB00574FD1 /* MainVCSettings.json */,
+				81A8260F1DABD9F300574FD1 /* NNAddViewController.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		81A826321DAD231200574FD1 /* popover */ = {
+			isa = PBXGroup;
+			children = (
+				81A826331DAD231200574FD1 /* NNPopoverAnimator.swift */,
+				81A826341DAD231200574FD1 /* NNPopoverViewController.storyboard */,
+				81A826351DAD231200574FD1 /* NNPopoverViewController.swift */,
+				81A826361DAD231200574FD1 /* NNPresentationController.swift */,
+			);
+			path = popover;
+			sourceTree = "<group>";
+		};
+		81A826371DAD231200574FD1 /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				81A8263C1DAD234700574FD1 /* NNQRCodeViewController.swift */,
+				81A826401DAD24F100574FD1 /* NNQRCodeViewController.storyboard */,
+				8141ED0D1DADE25B00725ACA /* NNQRCodeCardViewController.swift */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
+		86B15E2BC6EC127CC705EA61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81A36EB11DB7B8BA00F216F1 /* libsqlite3.tbd */,
+				81A36E9B1DB7AFD200F216F1 /* fmdb */,
+				1B7548C14A58FD1435531178 /* Pods_NNWeiBo_0_0_0.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81A825C21DABB1C900574FD1 /* NNWeiBo-0.0.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81A825EB1DABB1C900574FD1 /* Build configuration list for PBXNativeTarget "NNWeiBo-0.0.0" */;
+			buildPhases = (
+				14D248AE3E447F7A4CC648CB /* [CP] Check Pods Manifest.lock */,
+				81A825BF1DABB1C900574FD1 /* Sources */,
+				81A825C01DABB1C900574FD1 /* Frameworks */,
+				81A825C11DABB1C900574FD1 /* Resources */,
+				67E8861B67BC3F8987B193FF /* [CP] Embed Pods Frameworks */,
+				C8C94FB90829CA7657D5621A /* [CP] Copy Pods Resources */,
+				8141ED5E1DADFC0900725ACA /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NNWeiBo-0.0.0";
+			productName = "NNWeiBo-0.0.0";
+			productReference = 81A825C31DABB1C900574FD1 /* NNWeiBo-0.0.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81A825D61DABB1C900574FD1 /* NNWeiBo-0.0.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81A825EE1DABB1C900574FD1 /* Build configuration list for PBXNativeTarget "NNWeiBo-0.0.0Tests" */;
+			buildPhases = (
+				81A825D31DABB1C900574FD1 /* Sources */,
+				81A825D41DABB1C900574FD1 /* Frameworks */,
+				81A825D51DABB1C900574FD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81A825D91DABB1C900574FD1 /* PBXTargetDependency */,
+			);
+			name = "NNWeiBo-0.0.0Tests";
+			productName = "NNWeiBo-0.0.0Tests";
+			productReference = 81A825D71DABB1C900574FD1 /* NNWeiBo-0.0.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81A825E11DABB1C900574FD1 /* NNWeiBo-0.0.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81A825F11DABB1C900574FD1 /* Build configuration list for PBXNativeTarget "NNWeiBo-0.0.0UITests" */;
+			buildPhases = (
+				81A825DE1DABB1C900574FD1 /* Sources */,
+				81A825DF1DABB1C900574FD1 /* Frameworks */,
+				81A825E01DABB1C900574FD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81A825E41DABB1C900574FD1 /* PBXTargetDependency */,
+			);
+			name = "NNWeiBo-0.0.0UITests";
+			productName = "NNWeiBo-0.0.0UITests";
+			productReference = 81A825E21DABB1C900574FD1 /* NNWeiBo-0.0.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81A825BB1DABB1C900574FD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NN;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = YMWM;
+				TargetAttributes = {
+					81A825C21DABB1C900574FD1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					81A825D61DABB1C900574FD1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 81A825C21DABB1C900574FD1;
+					};
+					81A825E11DABB1C900574FD1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 81A825C21DABB1C900574FD1;
+					};
+				};
+			};
+			buildConfigurationList = 81A825BE1DABB1C900574FD1 /* Build configuration list for PBXProject "NNWeiBo-0.0.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81A825BA1DABB1C900574FD1;
+			productRefGroup = 81A825C41DABB1C900574FD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81A825C21DABB1C900574FD1 /* NNWeiBo-0.0.0 */,
+				81A825D61DABB1C900574FD1 /* NNWeiBo-0.0.0Tests */,
+				81A825E11DABB1C900574FD1 /* NNWeiBo-0.0.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81A825C11DABB1C900574FD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81A36A201DB62FA000F216F1 /* compose_pic_add@3x.png in Resources */,
+				815CDDC11DB243DC00B40216 /* NNHomeRefreshView.xib in Resources */,
+				81A369911DB5CA0600F216F1 /* Emoticons.bundle in Resources */,
+				81A8260C1DABD0CB00574FD1 /* MainVCSettings.json in Resources */,
+				81A36A211DB62FA000F216F1 /* compose_pic_add_highlighted@2x.png in Resources */,
+				81A36A221DB62FA000F216F1 /* compose_pic_add_highlighted@3x.png in Resources */,
+				81A36A1E1DB62FA000F216F1 /* compose_photo_close@2x.png in Resources */,
+				81A36A1F1DB62FA000F216F1 /* compose_pic_add@2x.png in Resources */,
+				81A825CE1DABB1C900574FD1 /* Assets.xcassets in Resources */,
+				81A826391DAD231200574FD1 /* NNPopoverViewController.storyboard in Resources */,
+				81A826411DAD24F100574FD1 /* NNQRCodeViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81A825D51DABB1C900574FD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81A825E01DABB1C900574FD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14D248AE3E447F7A4CC648CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		67E8861B67BC3F8987B193FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NNWeiBo-0.0.0/Pods-NNWeiBo-0.0.0-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8C94FB90829CA7657D5621A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NNWeiBo-0.0.0/Pods-NNWeiBo-0.0.0-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81A825BF1DABB1C900574FD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81A36A231DB62FA000F216F1 /* ImageSelectorController.swift in Sources */,
+				81A8263E1DAD234700574FD1 /* NNQRCodeViewController.swift in Sources */,
+				81A36EAB1DB7AFD200F216F1 /* FMDatabaseAdditions.m in Sources */,
+				81A36EAD1DB7AFD200F216F1 /* FMDatabaseQueue.m in Sources */,
+				8141EE2D1DAF6E7600725ACA /* NNNewfeatureController.swift in Sources */,
+				81A826011DABB68800574FD1 /* NNHomeTableViewController.swift in Sources */,
+				81A36EB61DB845EB00F216F1 /* NNStatusDAO.swift in Sources */,
+				81A367911DB3457F00F216F1 /* NNColor+Category.swift in Sources */,
+				81A36EB41DB844E300F216F1 /* NNSQLiteManager.swift in Sources */,
+				81A826161DAC700600574FD1 /* NNVisitorView.swift in Sources */,
+				81A36EAF1DB7AFD200F216F1 /* FMDatabaseAdditionsVariadic.swift in Sources */,
+				81A3698E1DB5CA0600F216F1 /* EmojiPackage.swift in Sources */,
+				81A826381DAD231200574FD1 /* NNPopoverAnimator.swift in Sources */,
+				81A826031DABB69A00574FD1 /* NNMessageTableViewController.swift in Sources */,
+				813A4DF41DB0E53D002F8446 /* NNStatusTopView.swift in Sources */,
+				81A8263A1DAD231200574FD1 /* NNPopoverViewController.swift in Sources */,
+				81A36EB01DB7AFD200F216F1 /* FMDatabaseVariadic.swift in Sources */,
+				813A4DF21DB0E529002F8446 /* NNStatusBottomView.swift in Sources */,
+				81A36EAC1DB7AFD200F216F1 /* FMDatabasePool.m in Sources */,
+				8141EE391DB05C9200725ACA /* NNButton+Category.swift in Sources */,
+				81A3698F1DB5CA0600F216F1 /* EmojiTextAttachment.swift in Sources */,
+				8141EE371DB05BB500725ACA /* NNLabel+Category.swift in Sources */,
+				81A3678D1DB339EE00F216F1 /* NNPhotoBrowserController.swift in Sources */,
+				813A4DF81DB0E977002F8446 /* NNStatusPictureView.swift in Sources */,
+				8141ED651DAE34D900725ACA /* NNUserAccount.swift in Sources */,
+				8141EE351DB05ACE00725ACA /* NNHomeTableViewCell.swift in Sources */,
+				81A369921DB5CA0600F216F1 /* UITextView+Category.swift in Sources */,
+				815CDDBD1DB2435F00B40216 /* NNStatusNormalTableViewCell.swift in Sources */,
+				81A3692C1DB516B800F216F1 /* NNComposeViewController.swift in Sources */,
+				81A825FF1DABB67600574FD1 /* NNDiscoverTableViewController.swift in Sources */,
+				8141ED611DAE152F00725ACA /* NNOAuthViewController.swift in Sources */,
+				81A825FD1DABB63900574FD1 /* NNTabBarController.swift in Sources */,
+				81A826181DAC9E4B00574FD1 /* UIBarButtonItem+Category.swift in Sources */,
+				8141EE3B1DB086FA00725ACA /* NNDate+Category.swift in Sources */,
+				81A826141DAC6ED500574FD1 /* NNBaseTableViewController.swift in Sources */,
+				8141ED631DAE2B1E00725ACA /* NNNetworkTools.swift in Sources */,
+				815CDDBF1DB243A700B40216 /* NNHomeRefreshControl.swift in Sources */,
+				815CDDC31DB2442900B40216 /* NNStatusForwardTableViewCell.swift in Sources */,
+				81A36EAA1DB7AFD200F216F1 /* FMDatabase.m in Sources */,
+				81A825C71DABB1C900574FD1 /* AppDelegate.swift in Sources */,
+				81A8261A1DACA96500574FD1 /* NNTitleButton.swift in Sources */,
+				8141ED0E1DADE25B00725ACA /* NNQRCodeCardViewController.swift in Sources */,
+				8141EE311DAFB30E00725ACA /* NNStatus.swift in Sources */,
+				81A369901DB5CA0600F216F1 /* EmojiViewController.swift in Sources */,
+				81A36A241DB62FA000F216F1 /* UIImage+Category.swift in Sources */,
+				81A8263B1DAD231200574FD1 /* NNPresentationController.swift in Sources */,
+				81A826121DAC6DD500574FD1 /* UIView+AutoLayout.swift in Sources */,
+				8141EE2F1DAF949200725ACA /* NNWelcomeController.swift in Sources */,
+				81A36EAE1DB7AFD200F216F1 /* FMResultSet.m in Sources */,
+				81A3678F1DB33A0D00F216F1 /* NNPhotoBrowserCell.swift in Sources */,
+				8141EE331DAFC16100725ACA /* NNUser.swift in Sources */,
+				8141ED671DAE461C00725ACA /* String+Category.swift in Sources */,
+				81A826051DABB6A400574FD1 /* NNProfileTableViewController.swift in Sources */,
+				81A826101DABD9F300574FD1 /* NNAddViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81A825D31DABB1C900574FD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81A825DC1DABB1C900574FD1 /* NNWeiBo_0_0_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81A825DE1DABB1C900574FD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81A825E71DABB1C900574FD1 /* NNWeiBo_0_0_0UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81A825D91DABB1C900574FD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81A825C21DABB1C900574FD1 /* NNWeiBo-0.0.0 */;
+			targetProxy = 81A825D81DABB1C900574FD1 /* PBXContainerItemProxy */;
+		};
+		81A825E41DABB1C900574FD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81A825C21DABB1C900574FD1 /* NNWeiBo-0.0.0 */;
+			targetProxy = 81A825E31DABB1C900574FD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		81A825E91DABB1C900574FD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81A825EA1DABB1C900574FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81A825EC1DABB1C900574FD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7F2ECB94F4CF62E9D72CCF8 /* Pods-NNWeiBo-0.0.0.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = "NNWeiBo-0.0.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LF.NNWeiBo-0-0-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NNWeiBo-0.0.0/NNWeiBo-bridge.h";
+			};
+			name = Debug;
+		};
+		81A825ED1DABB1C900574FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B10561328D2956729F4EAD0 /* Pods-NNWeiBo-0.0.0.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = "NNWeiBo-0.0.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LF.NNWeiBo-0-0-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NNWeiBo-0.0.0/NNWeiBo-bridge.h";
+			};
+			name = Release;
+		};
+		81A825EF1DABB1C900574FD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "NNWeiBo-0.0.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LF.NNWeiBo-0-0-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NNWeiBo-0.0.0.app/NNWeiBo-0.0.0";
+			};
+			name = Debug;
+		};
+		81A825F01DABB1C900574FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "NNWeiBo-0.0.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LF.NNWeiBo-0-0-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NNWeiBo-0.0.0.app/NNWeiBo-0.0.0";
+			};
+			name = Release;
+		};
+		81A825F21DABB1C900574FD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "NNWeiBo-0.0.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LF.NNWeiBo-0-0-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "NNWeiBo-0.0.0";
+			};
+			name = Debug;
+		};
+		81A825F31DABB1C900574FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "NNWeiBo-0.0.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LF.NNWeiBo-0-0-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "NNWeiBo-0.0.0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81A825BE1DABB1C900574FD1 /* Build configuration list for PBXProject "NNWeiBo-0.0.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81A825E91DABB1C900574FD1 /* Debug */,
+				81A825EA1DABB1C900574FD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81A825EB1DABB1C900574FD1 /* Build configuration list for PBXNativeTarget "NNWeiBo-0.0.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81A825EC1DABB1C900574FD1 /* Debug */,
+				81A825ED1DABB1C900574FD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81A825EE1DABB1C900574FD1 /* Build configuration list for PBXNativeTarget "NNWeiBo-0.0.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81A825EF1DABB1C900574FD1 /* Debug */,
+				81A825F01DABB1C900574FD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81A825F11DABB1C900574FD1 /* Build configuration list for PBXNativeTarget "NNWeiBo-0.0.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81A825F21DABB1C900574FD1 /* Debug */,
+				81A825F31DABB1C900574FD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81A825BB1DABB1C900574FD1 /* Project object */;
+}
